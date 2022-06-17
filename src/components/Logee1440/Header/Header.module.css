@@ -1,0 +1,45 @@
+.root {
+  width: 1440px;
+  place-content: space-between;
+  align-items: flex-start;
+  padding: 16px 24px;
+  background-color: #5620aa;
+  overflow: hidden;
+}
+.logeePort {
+  color: #fff;
+  font-size: 24px;
+  line-height: 16px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 139px;
+  height: 40px;
+  align-items: center;
+}
+.role {
+  height: 40px;
+  place-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  outline: solid 1px #e0e0e0;
+  outline-offset: -1px;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.profile_circle {
+  width: 24px;
+  height: 24px;
+}
+.pTPPJKONLINE {
+  color: #000;
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}

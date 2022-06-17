@@ -1,0 +1,2431 @@
+.root {
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f0f2f5;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.content {
+  width: 1440px;
+  align-items: flex-start;
+}
+.sideMenu {
+  align-self: stretch;
+  flex-direction: column;
+  place-content: space-between;
+  align-items: center;
+  padding: 8px 0 32px;
+  background-color: #fff;
+}
+.top {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.sideMenu2 {
+  width: 200px;
+  place-content: space-between;
+  align-items: center;
+}
+.frame36484 {
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0 0 0 16px;
+}
+.logoTrans40x40Revers {
+  width: 24px;
+  height: 24px;
+  overflow: visible;
+}
+.text {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.line {
+  width: 4px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.sideMenu_dashboard {
+  width: 200px;
+  place-content: space-between;
+  align-items: center;
+  background-color: #e6f7ff;
+}
+.frame364842 {
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0 0 0 16px;
+}
+.iconsNavigationDashboard {
+  width: 24px;
+  height: 24px;
+}
+.text2 {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.line2 {
+  width: 4px;
+  height: 40px;
+  position: relative;
+  background-color: #1890ff;
+  overflow: hidden;
+}
+.sideMenuJadwalKapal {
+  width: 200px;
+  align-items: center;
+}
+.frame364843 {
+  flex: 1;
+  align-items: center;
+  gap: 20px;
+  padding: 4px 16px 4px 20px;
+}
+.penagihan {
+  width: 16px;
+  height: 16px;
+  overflow: visible;
+}
+.text3 {
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.line3 {
+  width: 4px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.sideMenu3 {
+  width: 200px;
+  align-items: center;
+}
+.frame364844 {
+  flex: 1;
+  align-items: center;
+  gap: 20px;
+  padding: 4px 16px 4px 20px;
+}
+.note {
+  width: 16px;
+  height: 16px;
+}
+.text4 {
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.line4 {
+  width: 4px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.sideMenuJadwalKapal2 {
+  width: 200px;
+  align-items: center;
+}
+.frame364845 {
+  flex: 1;
+  align-items: center;
+  gap: 20px;
+  padding: 4px 16px 4px 20px;
+}
+.ship {
+  width: 16px;
+  height: 16px;
+}
+.text5 {
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.line5 {
+  width: 4px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.bottom {
+  flex-direction: column;
+}
+.sideMenu4 {
+  width: 200px;
+  align-self: flex-start;
+  place-content: space-between;
+  align-items: center;
+}
+.frame364846 {
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0 0 0 16px;
+}
+.iconsNavigationExit {
+  width: 24px;
+  height: 24px;
+}
+.text6 {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.line6 {
+  width: 4px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.mainContent {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 24px 16px;
+  overflow-y: auto;
+}
+.blockTransaksi {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 24px;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+  filter: drop-shadow(0px 2px 12px #00000014) drop-shadow(0px 0px 2px #0000000a);
+}
+.header {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 24px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+  overflow: hidden;
+}
+.title {
+  color: #2b2826;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+}
+.filter {
+  width: 463px;
+  place-content: flex-end;
+  align-items: flex-end;
+  gap: 8px;
+}
+.dateRange {
+  align-items: flex-end;
+}
+.unnamed {
+  color: #2b2826;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Nunito Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 16px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.blockCard {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 24px;
+}
+.sectionTop {
+  align-self: stretch;
+}
+.card {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 16px;
+  outline: solid 1px #dee3ed;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.title2 {
+  align-self: stretch;
+  align-items: center;
+  gap: 16px;
+  overflow: hidden;
+}
+.icon {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #f7f3fb;
+  overflow: hidden;
+}
+.remixIconsFillMapShip2Fill {
+  width: 1px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+}
+.transaksiProforma {
+  color: #2b2826;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.content2 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 24px;
+}
+.info {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+.head {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.totalJumlahTransaksi {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.unnamed2 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.info2 {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+.head2 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.totalJumlahKontainer {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.unnamed3 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.info3 {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+.head3 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.totalNilaiTransaksi {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.unnamed4 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.sectionBottom {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 16px;
+}
+.card2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 16px;
+  outline: solid 1px #dee3ed;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.icon2 {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #fde5d8;
+  overflow: hidden;
+}
+.head4 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.transaksiPaylater {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.rp0 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.info4 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 8px;
+}
+.unnamed5 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.transaksi {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.card3 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 16px;
+  outline: solid 1px #dee3ed;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.icon3 {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #fff6ed;
+  overflow: hidden;
+}
+.nPCT1 {
+  width: 24px;
+  height: 24px;
+}
+.head5 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.transaksiAutoCollection {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.rp02 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.info5 {
+  align-self: stretch;
+  align-items: center;
+  gap: 16px;
+}
+.unnamed6 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.transaksi2 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.card4 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 16px;
+  outline: solid 1px #dee3ed;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.icon4 {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #edfbdb;
+  overflow: hidden;
+}
+.remixIconsFillDocumentBillFill {
+  width: 1px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+}
+.head6 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.transaksiVirtualAccout {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.rp03 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.info6 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 8px;
+}
+.unnamed7 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.transaksi3 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.blockCard2 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 24px;
+}
+.sectionTop2 {
+  align-self: stretch;
+  border-radius: 4px;
+}
+.card5 {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 16px;
+  outline: solid 1px #dee3ed;
+  outline-offset: -1px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.frame6433 {
+  align-self: stretch;
+  align-items: center;
+  gap: 16px;
+  overflow: hidden;
+}
+.icon5 {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #fff4e6;
+  overflow: hidden;
+}
+.remixIconsFillMapTruckFill {
+  width: 1px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+}
+.transaksiTruk {
+  color: #2b2826;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.frame36541 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 24px;
+}
+.frame64332 {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+.head7 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.totalJumlahKontainer2 {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.unnamed8 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.frame6434 {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+.head8 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.totalJumlahTransaksi2 {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.unnamed9 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.frame64333 {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+.head9 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.totalNilaiTransaksi2 {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.rp04 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.sectionBottom2 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 16px;
+}
+.card6 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 16px;
+  outline: solid 1px #dee3ed;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.icon6 {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #fde5d8;
+  overflow: hidden;
+}
+.head10 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.transaksiPaylater2 {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.rp05 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.info7 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 8px;
+}
+.unnamed10 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.transaksi4 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.card7 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 16px;
+  outline: solid 1px #dee3ed;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.icon7 {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #edfbdb;
+  overflow: hidden;
+}
+.remixIconsFillDocumentBillFill2 {
+  width: 1px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+}
+.head11 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.transaksiInvoiceAcceptance {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.rp06 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.info8 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 8px;
+}
+.unnamed11 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.transaksi5 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.card8 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 16px;
+  outline: solid 1px #dee3ed;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.icon8 {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #ffe1bd;
+  overflow: hidden;
+}
+.remixIconsFillFinanceBankCardF {
+  width: 1px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+}
+.head12 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.transaksiKartuKredit {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.rp07 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.info9 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 8px;
+}
+.unnamed12 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.transaksi6 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.card9 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 16px;
+  outline: solid 1px #dee3ed;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.icon9 {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #e6f4ff;
+  overflow: hidden;
+}
+.remixIconsFillFinanceExchangeF {
+  width: 1px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+}
+.head13 {
+  height: 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+}
+.transaksiInternalB2B {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.rp08 {
+  color: #212121;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+}
+.info10 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 16px;
+}
+.unnamed13 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.transaksi7 {
+  color: #424242;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.blockRingkasan {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 24px;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+  filter: drop-shadow(0px 2px 12px #00000014) drop-shadow(0px 0px 2px #0000000a);
+}
+.header2 {
+  align-self: stretch;
+  gap: 16px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+  overflow: hidden;
+}
+._1 {
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 0 0 0 24px;
+}
+.ringkasanLaporan {
+  color: #000;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  align-items: center;
+  white-space: nowrap;
+}
+._2 {
+  width: 185px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 16px 24px 16px 0;
+  background-image:/* webpackIgnore: true */ url('assets/_2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inputTextActivatedIcon {
+  width: 156px;
+  height: 40px;
+  align-items: flex-start;
+  position: relative;
+}
+.inputBorder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1px #eee;
+  outline-offset: -1px;
+  border-radius: 3px;
+  background-color: #fafafa;
+}
+.buttonBorder {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  outline: solid 1px #e8e8e8;
+  outline-offset: -1px;
+  border-radius: 0 3px 3px 0;
+  background-color: #cacccf;
+}
+.iconsActionsExpand_more {
+  width: 24px;
+  position: absolute;
+  right: 8px;
+  top: 20%;
+  bottom: 20%;
+  overflow: visible;
+}
+.inputTextField {
+  color: #c9c7c5;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  position: absolute;
+  left: 8px;
+  top: 20%;
+  bottom: 20%;
+  white-space: nowrap;
+}
+.sectionFlex {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0 24px;
+}
+.card10 {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 24px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.header3 {
+  align-self: stretch;
+  gap: 16px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+  overflow: hidden;
+}
+._12 {
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 0 0 0 24px;
+}
+.proformaKontainer {
+  color: #000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  align-items: center;
+  white-space: nowrap;
+}
+._22 {
+  width: 226px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 16px 24px 16px 0;
+}
+.inputTextActivatedIcon2 {
+  width: 156px;
+  height: 40px;
+  align-items: flex-start;
+  position: relative;
+}
+.inputBorder2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1px #eee;
+  outline-offset: -1px;
+  border-radius: 3px;
+  background-color: #fafafa;
+}
+.buttonBorder2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  outline: solid 1px #e8e8e8;
+  outline-offset: -1px;
+  border-radius: 0 3px 3px 0;
+  background-color: #cacccf;
+}
+.iconsActionsExpand_more2 {
+  width: 24px;
+  position: absolute;
+  right: 8px;
+  top: 20%;
+  bottom: 20%;
+  overflow: visible;
+}
+.inputTextField2 {
+  color: #c9c7c5;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  position: absolute;
+  left: 8px;
+  top: 20%;
+  bottom: 20%;
+  white-space: nowrap;
+}
+.select {
+  align-self: stretch;
+  place-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.chevron_left {
+  width: 30.2702px;
+  height: 24px;
+}
+._2022 {
+  color: #000;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 47.9279px;
+  text-align: center;
+  justify-content: center;
+}
+.chevron_right {
+  width: 30.2702px;
+  height: 24px;
+}
+.info11 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 24px;
+}
+.infoNoData {
+  align-self: stretch;
+  place-content: center;
+  padding: 8px 24px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.belumAdaData {
+  color: #2b2826;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.card11 {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 24px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.header4 {
+  align-self: stretch;
+  gap: 16px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+  overflow: hidden;
+}
+._13 {
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 0 0 0 24px;
+}
+.imporEkspor {
+  color: #000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  align-items: center;
+  white-space: nowrap;
+}
+._23 {
+  width: 226px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 16px 24px 16px 0;
+}
+.inputTextActivatedIcon3 {
+  width: 156px;
+  height: 40px;
+  align-items: flex-start;
+  position: relative;
+}
+.inputBorder3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1px #eee;
+  outline-offset: -1px;
+  border-radius: 3px;
+  background-color: #fafafa;
+}
+.buttonBorder3 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  outline: solid 1px #e8e8e8;
+  outline-offset: -1px;
+  border-radius: 0 3px 3px 0;
+  background-color: #cacccf;
+}
+.iconsActionsExpand_more3 {
+  width: 24px;
+  position: absolute;
+  right: 8px;
+  top: 20%;
+  bottom: 20%;
+  overflow: visible;
+}
+.inputTextField3 {
+  color: #c9c7c5;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  position: absolute;
+  left: 8px;
+  top: 20%;
+  bottom: 20%;
+  white-space: nowrap;
+}
+.select2 {
+  align-self: stretch;
+  place-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.chevron_left2 {
+  width: 30.2702px;
+  height: 24px;
+}
+._20222 {
+  color: #000;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 47.9279px;
+  text-align: center;
+  justify-content: center;
+}
+.chevron_right2 {
+  width: 30.2702px;
+  height: 24px;
+}
+.info12 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 24px;
+}
+.infoNoData2 {
+  align-self: stretch;
+  place-content: center;
+  padding: 8px 24px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.belumAdaData2 {
+  color: #2b2826;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.sectionFlex2 {
+  align-self: stretch;
+  padding: 0 24px;
+}
+.card12 {
+  width: 564px;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 24px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.header5 {
+  align-self: stretch;
+  gap: 16px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+  overflow: hidden;
+}
+._14 {
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 0 0 0 24px;
+}
+.proformaKontainer2 {
+  color: #000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  align-items: center;
+  white-space: nowrap;
+}
+._24 {
+  width: 226px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 16px 24px 16px 0;
+}
+.inputTextActivatedIcon4 {
+  width: 156px;
+  height: 40px;
+  align-items: flex-start;
+  position: relative;
+}
+.inputBorder4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1px #eee;
+  outline-offset: -1px;
+  border-radius: 3px;
+  background-color: #fafafa;
+}
+.buttonBorder4 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  outline: solid 1px #e8e8e8;
+  outline-offset: -1px;
+  border-radius: 0 3px 3px 0;
+  background-color: #cacccf;
+}
+.iconsActionsExpand_more4 {
+  width: 24px;
+  position: absolute;
+  right: 8px;
+  top: 20%;
+  bottom: 20%;
+  overflow: visible;
+}
+.inputTextField4 {
+  color: #c9c7c5;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  position: absolute;
+  left: 8px;
+  top: 20%;
+  bottom: 20%;
+  white-space: nowrap;
+}
+.select3 {
+  align-self: stretch;
+  place-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.chevron_left3 {
+  width: 30.2702px;
+  height: 24px;
+}
+._20223 {
+  color: #000;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 47.9279px;
+  text-align: center;
+  justify-content: center;
+}
+.chevron_right3 {
+  width: 30.2702px;
+  height: 24px;
+}
+.info13 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 24px;
+}
+.infoNoData3 {
+  align-self: stretch;
+  place-content: center;
+  padding: 8px 24px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.belumAdaData3 {
+  color: #2b2826;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.blockAktivitas {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 24px;
+  border-radius: 5px;
+  background-color: #fff;
+  filter: drop-shadow(0px 2px 12px #00000014) drop-shadow(0px 0px 2px #0000000a);
+}
+.header6 {
+  height: 72px;
+  align-self: stretch;
+  gap: 16px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+}
+._15 {
+  z-index: 0;
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 16px 24px;
+}
+.laporanAktivitasHariIni {
+  color: #2b2826;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  align-items: center;
+  white-space: nowrap;
+}
+._25 {
+  z-index: 0;
+  width: 185px;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 16px 24px 16px 0;
+  background-image:/* webpackIgnore: true */ url('assets/_22.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card13 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 24px;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.alert {
+  height: 46px;
+  align-self: stretch;
+  place-content: space-between;
+  align-items: center;
+  padding: 16px 16px 16px 24px;
+  border-radius: 5px;
+  background-color: #5c94bc26;
+}
+.title3 {
+  width: 314px;
+  height: 24px;
+  align-items: flex-start;
+  position: relative;
+}
+.calendar {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.periodeLaporan5April202200240W {
+  color: #2b2826;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 5px;
+  white-space: nowrap;
+}
+.info14 {
+  color: #424242;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 288.5396px;
+  text-align: end;
+  justify-content: flex-end;
+}
+.sectionTop3 {
+  align-self: stretch;
+  align-items: center;
+  gap: 16px;
+  outline: solid 1px #ecebea;
+  outline-offset: -1px;
+  border-radius: 4px;
+}
+.card14 {
+  z-index: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+.title4 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.pesananTruk {
+  color: #2c4d63;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.pantauPerkembanganSemuaAktivit {
+  color: #424242;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 366px;
+  height: 14px;
+}
+.detail {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 14px;
+}
+.title5 {
+  height: 38px;
+  align-self: stretch;
+  position: relative;
+}
+.unnamed14 {
+  color: #2b2826;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 38.1212px;
+  text-align: end;
+  justify-content: flex-end;
+  position: absolute;
+  left: 93.9393%;
+  right: 0;
+  top: 0;
+  bottom: 5.2631%;
+}
+.totalPesanan {
+  color: #2b2826;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  width: 231.4502px;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 63.2034%;
+  top: 5.2631%;
+  bottom: 0;
+}
+.content3 {
+  height: 144px;
+  align-self: stretch;
+  position: relative;
+}
+.list {
+  width: 461.4491px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: absolute;
+  left: 0;
+  right: 26.6376%;
+  top: 0;
+  bottom: 0;
+}
+.info15 {
+  align-items: center;
+  gap: 12px;
+}
+.ellipse314 {
+  width: 16px;
+  height: 16px;
+  overflow: visible;
+}
+.menungguKonfirmasi {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.info16 {
+  align-items: center;
+  gap: 12px;
+}
+.ellipse315 {
+  width: 16px;
+  height: 16px;
+  overflow: visible;
+}
+.pesananTerkonfirmasi {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.info17 {
+  align-items: center;
+  gap: 12px;
+}
+.ellipse316 {
+  width: 16px;
+  height: 16px;
+  overflow: visible;
+}
+.dalamPerjalanan {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.info18 {
+  align-items: center;
+  gap: 12px;
+}
+.ellipse317 {
+  width: 16px;
+  height: 16px;
+  overflow: visible;
+}
+.selesai {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.info19 {
+  align-items: center;
+  gap: 12px;
+}
+.ellipse318 {
+  width: 16px;
+  height: 16px;
+  overflow: visible;
+}
+.batal {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.unnamed15 {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 24.7204px;
+  text-align: end;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  left: 96.0698%;
+  right: 0;
+  top: 0;
+  bottom: 88.8888%;
+}
+.unnamed16 {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 24.7204px;
+  text-align: end;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  left: 96.0698%;
+  right: 0;
+  top: 22.2222%;
+  bottom: 66.6666%;
+}
+.unnamed17 {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 24.7204px;
+  text-align: end;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  left: 96.0698%;
+  right: 0;
+  top: 44.4444%;
+  bottom: 44.4444%;
+}
+.unnamed18 {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 24.7204px;
+  text-align: end;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  left: 96.0698%;
+  right: 0;
+  top: 66.6666%;
+  bottom: 22.2222%;
+}
+.unnamed19 {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 24.7204px;
+  text-align: end;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  left: 96.0698%;
+  right: 0;
+  top: 88.8888%;
+  bottom: 0;
+}
+._26 {
+  z-index: 0;
+  width: 467px;
+  align-self: stretch;
+}
+.sectionBottom3 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  outline: solid 1px #e0e0e0;
+  outline-offset: -1px;
+  border-radius: 4px;
+}
+.title6 {
+  z-index: 0;
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.proformaHariIni {
+  color: #2c4d63;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  width: 192px;
+}
+.lihatInformasiTerkiniDariProfo {
+  color: #424242;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 192px;
+  flex: 1;
+}
+.detail2 {
+  z-index: 0;
+  flex: 1;
+  align-items: flex-start;
+  gap: 16px;
+}
+.info20 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 3px;
+  background-color: #e0faeb;
+}
+.title7 {
+  align-self: stretch;
+  place-content: space-between;
+  align-items: flex-start;
+}
+.telahDibayar {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.information {
+  width: 16px;
+  height: 16px;
+}
+.rp09 {
+  color: #2b2826;
+  font-size: 24px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.info21 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 3px;
+  background-color: #fff8f7;
+}
+.title8 {
+  align-self: stretch;
+  place-content: space-between;
+  align-items: flex-start;
+}
+.belumDibayar {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.information2 {
+  width: 16px;
+  height: 16px;
+}
+.rp010 {
+  color: #2b2826;
+  font-size: 24px;
+  line-height: 19px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.blockTransaksi2 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 24px;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+  filter: drop-shadow(0px 2px 12px #00000014) drop-shadow(0px 0px 2px #0000000a);
+}
+.card15 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.header7 {
+  height: 72px;
+  align-self: stretch;
+  gap: 16px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+}
+.title9 {
+  z-index: 0;
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 16px 24px;
+}
+.nilaiTransaksiConsigneeTerbesa {
+  color: #2b2826;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  align-items: center;
+  white-space: nowrap;
+}
+.background {
+  z-index: 0;
+  width: 185px;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 16px 24px 16px 0;
+  background-image:/* webpackIgnore: true */ url('assets/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content4 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 24px;
+}
+.text7 {
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.belumAdaTransaksi {
+  color: #2b2826;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.laporanProformaAkanDitampilkan {
+  color: #2b2826;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.blockLaporan {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 24px;
+  border-radius: 5px;
+  background-color: #fff;
+  filter: drop-shadow(0px 2px 12px #00000014) drop-shadow(0px 0px 2px #0000000a);
+}
+.header8 {
+  align-self: stretch;
+  align-items: center;
+  gap: 16px;
+  outline: solid 1px #dddbda;
+  outline-offset: -1px;
+}
+.title10 {
+  z-index: 0;
+  flex: 1;
+  flex-direction: column;
+  padding: 16px 24px 0;
+}
+.nilaiTransaksiConsigneeTerbesa2 {
+  color: #2b2826;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  align-self: stretch;
+  align-items: center;
+}
+.tabs {
+  align-self: stretch;
+  align-items: center;
+}
+.background2 {
+  z-index: 0;
+  width: 185px;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 16px 24px 16px 0;
+  background-image:/* webpackIgnore: true */ url('assets/background2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card16 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 24px;
+}
+.alert2 {
+  height: 46px;
+  align-self: stretch;
+  place-content: space-between;
+  align-items: center;
+  padding: 16px 16px 16px 24px;
+  border-radius: 5px;
+  background-color: #5c94bc26;
+}
+.frame36486 {
+  width: 314px;
+  height: 24px;
+  align-items: flex-start;
+  position: relative;
+}
+.calendar2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.periodeLaporan2021 {
+  color: #2b2826;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 5px;
+  white-space: nowrap;
+}
+.pembaruanTerakhir21Mei202190WI {
+  color: #424242;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 288.5396px;
+  text-align: end;
+  justify-content: flex-end;
+}
+.collapse {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 24px;
+}
+.section {
+  align-self: stretch;
+  flex-direction: column;
+  outline: solid 1px #e0e0e0;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.header9 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 24px;
+}
+.info22 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.totalNilaiTransaksi3 {
+  color: #2b2826;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.akumulasiSeluruhTransaksiYangB {
+  color: #424242;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.chevron_down {
+  width: 1px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+}
+.content5 {
+  height: 51px;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 16px 27px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.text8 {
+  align-self: stretch;
+  place-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.total {
+  color: #2b2826;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  align-items: center;
+  white-space: nowrap;
+}
+.rp011 {
+  color: #2b2826;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-align: end;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+.section2 {
+  align-self: stretch;
+  flex-direction: column;
+  outline: solid 1px #e0e0e0;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.header10 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 24px;
+}
+.info23 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.jumlahTransaksi {
+  color: #2b2826;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.totalNilaiTransaksiMelaluiSemu {
+  color: #424242;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-items: center;
+  white-space: nowrap;
+}
+.chevron_down2 {
+  width: 1px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+}
+.content6 {
+  height: 51px;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 16px 27px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.text9 {
+  align-self: stretch;
+  place-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.total2 {
+  color: #2b2826;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  align-items: center;
+  white-space: nowrap;
+}
+.rp012 {
+  color: #2b2826;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-align: end;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+.logeePort2022 {
+  color: #2b2826;
+  font-size: 10px;
+  line-height: 16px;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  align-self: stretch;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

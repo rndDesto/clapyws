@@ -1,0 +1,14 @@
+.root {
+  height: 40px;
+  align-self: stretch;
+  align-items: center;
+  gap: 8px;
+  outline: solid 1px #dddbda;
+  border-radius: 8px;
+  background-color: #fff;
+  filter: drop-shadow(0px 1px 2px #1f293714);
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}

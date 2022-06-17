@@ -1,0 +1,5 @@
+.root {
+  align-self: stretch;
+  flex-direction: column;
+  border-radius: 0 0 1px 1px;
+}

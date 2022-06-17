@@ -1,0 +1,13 @@
+.root {
+  align-self: stretch;
+  padding: 0 16px;
+  overflow: hidden;
+}
+.line {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  border-radius: 100px;
+  background-color: #e0e0e0;
+  overflow: hidden;
+}

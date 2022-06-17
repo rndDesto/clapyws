@@ -1,0 +1,17 @@
+.root {
+  height: 64px;
+  align-items: center;
+  padding: 24px 32px;
+  overflow: hidden;
+}
+.label {
+  color: #212121;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap;
+}

@@ -1,0 +1,35 @@
+.root {
+  width: 115px;
+  height: 64px;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.frame2915 {
+  width: 115px;
+  height: 64px;
+  place-content: center;
+  align-items: center;
+  padding: 24px 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.label {
+  color: #e8590c;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  white-space: nowrap;
+}
+.indicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 93.75%;
+  bottom: -0.4166%;
+  border-radius: 2px 2px 0 0;
+  background-color: #e8590c;
+}

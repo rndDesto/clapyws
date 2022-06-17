@@ -1,0 +1,9 @@
+.root {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #e8590c;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
